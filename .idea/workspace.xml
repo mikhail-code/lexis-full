@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3dbdc0e1-33d6-4f56-899e-90a70f473cea" name="Changes" comment="Readying for deploy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lexis/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lexis/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
