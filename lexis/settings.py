@@ -42,7 +42,8 @@ INSTALLED_APPS = [
 
     'rest_framework',
 
-    "corsheaders",
+    'corsheaders',
+    'lexis',
 ]
 
 MIDDLEWARE = [
@@ -76,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'lexis.wsgi.application'
+WSGI_APPLICATION = 'vercel_app.wsgi.app'
 
 
 # Database
