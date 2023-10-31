@@ -2,22 +2,31 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 let getTitle = (note) => {
-  let title = note.body.split('\n')[0]
-  if (title.length > 45) {
-    return title.body.slice(0,45)
+  if (note && note.body) {
+    let title = note.body.split('\n')[0];
+    if (title && title.length > 45) {
+      return title.slice(0, 45);
+    }
+    return title;
   }
-  return title
-}
+  return '';
+};
+
 let getContent = (note) => {
-  let title = getTitle(note)
-  let content = note.body.replaceAll('\n', ' ') //remove next line 
-  content = note.body.replaceAll(title, '') // remove title
-  if(content.length > 45){
-    return content.slice(0, 45) + '...'
-  } else {
-    return content
+  if (note && note.body) {
+    let title = getTitle(note);
+    let content = note.body.replaceAll('\n', ' '); // remove newlines
+    if (title) {
+      content = content.replaceAll(title, ''); // remove title
+    }
+    if (content.length > 45) {
+      return content.slice(0, 45) + '...';
+    } else {
+      return content;
+    }
   }
-}
+  return '';
+};
 
 let getTime = (note) => {
   return new Date(note.updated).toLocaleDateString() //makes date simple format

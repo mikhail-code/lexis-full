@@ -4,6 +4,16 @@ from rest_framework. response import Response
 from rest_framework. decorators import api_view
 from .models import Note
 from .serializers import NoteSerializer # importing serialization
+# bypass authorisation
+from django.views.decorators.csrf import csrf_exempt
+from rest_framework.views import APIView
+from rest_framework.response import Response
+class Object(APIView):
+    authentication_classes = []
+
+    def post(self, request, format=None):
+        return Response({'received data': request.data})
+
 # Create your views here.
 
 @api_view(['GET'])
@@ -41,6 +51,9 @@ def get_routes(request):
         },
     ]
     return Response(routes)
+
+
+@csrf_exempt
 @api_view(['POST'])
 def create_note(request):
     data = request.data
@@ -49,6 +62,8 @@ def create_note(request):
     )
     serializer = NoteSerializer(note, many=False)
     return Response(serializer.data)
+
+
 @api_view(['GET'])
 def get_notes(request):
     # just notes = Note.objects.all() wont work, we need serialize data!
@@ -56,18 +71,24 @@ def get_notes(request):
     serializer = NoteSerializer(notes, many=True) #many=true if array of items needs to be serialized and we will return querySet
     return Response (serializer.data)
 
+
 @api_view(['GET'])
 def get_note(request, pk):
     # just notes = Note.objects.all() wont work, we need serialize data!
     note = Note.objects.get(id=pk)
     serializer = NoteSerializer(note, many=False)
-    return Response (serializer.data)
+    return Response(serializer.data)
+
+
+@csrf_exempt
 @api_view(['DELETE'])
 def delete_note(request, pk):
     note = Note.objects.get(id=pk)
     note.delete()
     # removes item from DB
     return Response('Note was deleted!')
+
+
 @api_view(['PUT'])
 def update_note(request, pk):
     data = request.data

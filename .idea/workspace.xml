@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3dbdc0e1-33d6-4f56-899e-90a70f473cea" name="Changes" comment="doesnt work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lexis/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lexis/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lexis-react/src/components/ListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/lexis-react/src/components/ListItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,5 +158,15 @@
     <MESSAGE value="Readying for deploy" />
     <MESSAGE value="doesnt work" />
     <option name="LAST_COMMIT_MESSAGE" value="doesnt work" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api/views.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
