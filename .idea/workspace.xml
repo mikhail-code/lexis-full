@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dbdc0e1-33d6-4f56-899e-90a70f473cea" name="Changes" comment="doesnt work">
-      <change afterPath="$PROJECT_DIR$/lexis-react/build/static/js/main.b574d256.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lexis-react/build/static/js/main.b574d256.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lexis-react/build/static/js/main.b574d256.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lexis-react/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lexis-react/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/lexis-react/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lexis-react/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lexis-react/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lexis-react/build/static/js/main.a95008ec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lexis-react/build/static/js/main.a95008ec.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lexis-react/build/static/js/main.a95008ec.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lexis-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lexis-react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lexis-react/src/pages/NotesListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/lexis-react/src/pages/NotesListPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lexis/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lexis/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
