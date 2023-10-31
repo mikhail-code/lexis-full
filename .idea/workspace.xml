@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dbdc0e1-33d6-4f56-899e-90a70f473cea" name="Changes" comment="Readying for deploy">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3dbdc0e1-33d6-4f56-899e-90a70f473cea" name="Changes" comment="doesnt work">
+      <change afterPath="$PROJECT_DIR$/lexis-react/build/static/js/main.b574d256.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lexis-react/build/static/js/main.b574d256.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lexis-react/build/static/js/main.b574d256.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lexis-react/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lexis-react/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/lexis-react/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lexis-react/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lexis-react/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lexis-react/build/static/js/main.a95008ec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lexis-react/build/static/js/main.a95008ec.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lexis-react/build/static/js/main.a95008ec.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lexis-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lexis-react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lexis-react/src/pages/NotesListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/lexis-react/src/pages/NotesListPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lexis/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lexis/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lexis/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/lexis/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697830354166</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="doesnt work">
+      <option name="closed" value="true" />
+      <created>1697836709638</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697836709638</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +166,7 @@
     <MESSAGE value="Django before merging with frontend" />
     <MESSAGE value="Notes project finished" />
     <MESSAGE value="Readying for deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readying for deploy" />
+    <MESSAGE value="doesnt work" />
+    <option name="LAST_COMMIT_MESSAGE" value="doesnt work" />
   </component>
 </project>

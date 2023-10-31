@@ -22,6 +22,7 @@ const NotesListPage = () => {
 
     let getNotes = async () => {
         let response = await fetch('/api/notes/') // removed http://127.0.0.1:8000/api/notes/ because proxy is set in package.json
+        console.log(fetch('/api/notes/'))
         let data = await response.json()
         setNotes(data)
         // setNotes(data) updates the notes state with the fetched data. 
